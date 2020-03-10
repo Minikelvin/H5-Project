@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel=icon href=favicon.ico><title>乘坐记录查询</title><style>/*html,body{*/
+    /*  background-color:#f7f4f8!important;*/
+    /*}*/</style><link href=assets/css/app.css rel=preload as=style><link href=assets/css/chunk-vendors.css rel=preload as=style><link href=assets/js/app.js rel=preload as=script><link href=assets/js/chunk-vendors.js rel=preload as=script><link href=assets/css/chunk-vendors.css rel=stylesheet><link href=assets/css/app.css rel=stylesheet></head><body><noscript><strong>We're sorry but project doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script>//JS监听浏览器文字大小代码---------------------------移动端适配----------------------------------------------
+    "use strict";
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = (clientWidth / 7.5) + 'px';
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);</script><script src=assets/js/chunk-vendors.js></script><script src=assets/js/app.js></script></body></html>
