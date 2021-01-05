@@ -12,7 +12,7 @@
     "browser-sync": "browser-sync start --server --files \"css/*.css, *.html\""
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "postcss-px2rem": "^0.3.0",
     "socket.io": "^2.2.0",
     "vue": "^2.6.6",
