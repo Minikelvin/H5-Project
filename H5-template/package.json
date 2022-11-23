@@ -14,7 +14,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "postcss-px2rem": "^0.3.0",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "vue": "^2.6.6",
     "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1",
